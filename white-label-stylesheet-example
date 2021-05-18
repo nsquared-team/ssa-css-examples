@@ -1,0 +1,22 @@
+/* Hide SSA Logo */
+.app-header img {
+    display: none !important;
+}
+
+/* Hide Settings Images of Foxy */
+.md-card.settings .md-card-media {
+    display: none !important;
+}
+
+/* Hide right-side panel in SSA Backend */
+.md-layout.side-settings-col.md-column {
+	display: none !important;
+}
+
+/* Let main settings column stretch out 100% */
+@media screen and (min-width: 960px){
+	.md-layout.main-settings-col {
+    	flex-basis:  100%;
+        max-width: 100%;
+    }
+}
